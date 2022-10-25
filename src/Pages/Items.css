@@ -1,0 +1,38 @@
+.list-item {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.nameDiv {
+    width: 200px;
+
+}
+
+.update-name {
+    margin: 12px 0;
+
+    padding: 7px;
+}
+
+.hideInput {
+
+    margin: 30px ;
+    font-weight: 900;
+}
+
+.form {
+    /* display:flex; */
+    flex-direction: column;
+    
+
+}
+
+#update-now {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 8px;
+    color: black;
+    font-weight: 700;
+}
