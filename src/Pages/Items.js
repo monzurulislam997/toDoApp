@@ -5,7 +5,7 @@ const Items = ({ item }) => {
     const [updateId,setUpdateId]=useState('')
     const [isUpdate, setIsUpdate] = useState(false)
     const handleDelete = (id) => {
-        fetch(`http://localhost:5000/delete/${_id}`, {
+        fetch(`https://todo-server-production.up.railway.app/delete/${_id}`, {
             method: "DELETE"
         })
             .then(res => res.json())
@@ -19,7 +19,7 @@ const Items = ({ item }) => {
         e.preventDefault()
         const updateItem = e.target.update.value;
         console.log(updateItem);
-        fetch(`http://localhost:5000/update/${updateId}`, {
+        fetch(`https://todo-server-production.up.railway.app/update/${updateId}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

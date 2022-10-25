@@ -5,7 +5,7 @@ const Todo = () => {
     const [items, setItems] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:5000/allitems")
+        fetch("https://todo-server-production.up.railway.app/allitems")
             .then(res => res.json())
             .then(data => setItems(data))
     }, [items])
@@ -19,7 +19,7 @@ const Todo = () => {
             return alert("Can not be empty")
         }
 
-        fetch("http://localhost:5000/addItem", {
+        fetch("https://todo-server-production.up.railway.app/addItem", {
             method: "POST",
             headers: {
                 'content-type': 'application/json'
