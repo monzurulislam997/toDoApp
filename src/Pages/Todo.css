@@ -1,0 +1,68 @@
+
+/* .mainDiv {
+   border: 1px solid red;
+   height: 800px;
+} */
+
+.text-input {
+    border: 1px solid gray;
+    padding: 5px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.form input[type='text'] {
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 5px;
+   }
+
+.form input[type='text']:focus {
+    outline: none;
+    
+}
+
+
+.form input[type="submit"] {
+
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    padding: 2px 16px;
+    padding-bottom: 7px;
+    border: none;
+    background-color: orange;
+    border-radius: 6px;
+    margin-left: 7px;
+
+    }
+
+.update {
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    padding: 6px 13px;
+}
+
+.delete {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 13px;
+    margin-left: 10px;
+}
+
+.list-item {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslateblue;
+    margin-bottom: 2px;
+    width: 400px;
+
+}
+
+.todo-name {
+    margin-right: 25px;
+}
